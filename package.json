@@ -1,0 +1,42 @@
+{
+  "name": "microsoft-teams-clone",
+  "version": "1.0.0",
+  "description": "Microsoft Teams Clone , with ElectronJs and React Js",
+  "main": "main.js",
+  "scripts": {
+    "watch": "webpack --config webpack.common.js --watch",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumildematos/microsoft-teams-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumildematos/microsoft-teams-clone/issues"
+  },
+  "homepage": "https://github.com/dumildematos/microsoft-teams-clone#readme",
+  "dependencies": {
+    "@xstyled/styled-components": "^3.0.3",
+    "antd": "^4.16.8",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.2",
+    "electron": "^12.0.1",
+    "electron-reload": "^1.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
